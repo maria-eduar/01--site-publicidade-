@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --azulescuro: #03045eff;
+    --azulforte: #0077b6ff;
+    --azulclaro: #00b4d8ff;
+    --azulmuitoclaro: #90e0efff;
+    --azulcéu: #caf0f8ff; 
+}
