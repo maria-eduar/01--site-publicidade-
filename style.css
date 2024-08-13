@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Matemasie&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,5 +10,18 @@
     --azulforte: #0077b6ff;
     --azulclaro: #00b4d8ff;
     --azulmuitoclaro: #90e0efff;
-    --azulcéu: #caf0f8ff; 
+    --azulceu: #caf0f8ff; 
+    --fonte-titulo:"Matemasie", sans-serif;
+    --fonte-texto:"Josefin Sans", sans-serif;
+} 
+
+body{
+    background-color: var(--azulceu);
+    font-family: var(--fonte-texto);
+    font-size: 16px;
 }
+
+.titulo-principal{
+    font-family: var(--fonte-titulo);
+}
+
