@@ -6,8 +6,8 @@
 }
 
 :root{
-    --azulescuro: #03045eff;
-    --azulforte: #0077b6ff;
+    --azulescuro: rgb(5, 6, 102);
+    --azulforte: rgb(29, 128, 167);
     --azulclaro: #00b4d8ff;
     --azulmuitoclaro: #90e0efff;
     --azulceu: #caf0f8ff; 
@@ -16,7 +16,7 @@
 } 
 
 body{
-    background-color: var(--azulceu);
+    background-color: var(--azulescuro);
     font-family: var(--fonte-texto);
     font-size: 16px;
 }
@@ -24,4 +24,31 @@ body{
 .titulo-principal{
     font-family: var(--fonte-titulo);
 }
-
+.cabecalho{
+    background-color: var(--azulforte);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+.cabecalho-img{
+    width: 15%;
+    border-radius: 200%;
+}
+.cabecalho-nav_link{
+    text-decoration: none;
+    font-family: var(--fonte-titulo);
+    font-size: 24px;
+    color: var(--azulceu);
+    margin-right: 24px;
+}
+.principal-capa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24xp;
+    background-image: url(img/fundo.jpg);
+    background-repeat: no-repeat;
+    margin-left: 12xp;
+    padding: 24xp 12xp;
+}
