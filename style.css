@@ -7,7 +7,7 @@
 
 :root{
     --azulescuro: rgb(5, 6, 102);
-    --azulforte: rgb(29, 128, 167);
+    --azulforte: rgb(29,129,168);
     --azulclaro: #00b4d8ff;
     --azulmuitoclaro: #90e0efff;
     --azulceu: #caf0f8ff; 
@@ -43,13 +43,12 @@ body{
     margin-right: 24px;
 }
 .principal-capa{
+    background-image: url(img/fundo.jpg);
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 12xp;
-    background-repeat: no-repeat;
-    margin-left: 12xp;
-    padding: 24xp 12xp;
 }
 .principal-capa_conteudo{
     display:flex;
@@ -65,6 +64,7 @@ body{
 .principal-capa_texto{
     font-size: 24px;
     margin-top: 24px;
+    color: rgb(255, 255, 255);
 }
 .principal-capa_img{
     border-radius: 5% 5% 5% 5%;
