@@ -71,3 +71,22 @@ body{
     width: 50%;
     margin: 40px;
 }
+.principal-capa__comboato{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.principal-capa__botao{
+    background-color: var(--azulforte);
+    color: var(--azulceu);
+    border-radius: 15px;
+    padding: 0.5em;
+    margin-top: 1em;
+    text-decoration: none;
+}
+.principal-capa__botao:hover{
+    padding: 1.2em;
+    background-color: var(--azulmuitoclaro);
+    color: var(--azulceu);
+    transition: 0.5s;
+}
