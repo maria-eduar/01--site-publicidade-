@@ -9,8 +9,8 @@
     --azulescuro: rgb(5, 6, 102);
     --azulforte: rgb(29,129,168);
     --azulclaro: #00b4d8ff;
-    --azulmuitoclaro: #90e0efff;
-    --azulceu: #caf0f8ff; 
+    --azulmuitoclaro: rgb(255, 255, 255);
+    --azulceu: rgb(0, 0, 0); 
     --fonte-titulo:"Matemasie", sans-serif;
     --fonte-texto:"Josefin Sans", sans-serif;
 } 
@@ -92,3 +92,50 @@ body{
     color: var(--azulceu);
     transition: 0.5s;
 }
+.botao__secundario{
+    background-color:var(--azulforte);
+    text-align: center;
+    width: 50%;
+    border: 5px solid var(--azulceu)
+}
+.propaganda{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 7em;
+}
+.propaganda__img{
+    width: 80%;
+    height: 90%;
+    border-radius: 1em ;
+}
+.propaganda__titulo{
+     color:var(--azulmuitoclaro);
+     font-size: 20px;
+     font-family: var(--fonte-titulo);
+}
+.propaganda__titulo:hover{
+    text-shadow: 4px 4px 20px var(--azulforte);
+    transition: 0.7s;
+}
+.propaganda__texto{
+    font-size: 16px;
+    font-family:var(--fonte-texto);
+    color:var(--azulclaro); 
+    margin-top: 1em; 
+}
+.propaganda_2{
+    display: flex;
+    flex-direction: column;
+}
+.propaganda__img2{
+    width: 80%;
+    height: 90%;
+    margin-left: 4em;
+    border-radius: 1em;
+}
+
+
+
