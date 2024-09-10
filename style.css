@@ -114,7 +114,7 @@ body{
 .propaganda__titulo{
      color:var(--azulmuitoclaro);
      font-size: 20px;
-     font-family: var(--fonte-titulo);
+     font-family: var(--fonte-texto);
 }
 .propaganda__titulo:hover{
     text-shadow: 4px 4px 20px var(--azulforte);
@@ -135,6 +135,29 @@ body{
     height: 90%;
     margin-left: 4em;
     border-radius: 1em;
+}
+.principal-capa__botao:hover{
+    width: 50%;
+    height: 50%
+}
+.dispositivos{
+    text-align: center;
+}
+.dispositivos__titulo{
+    font-family: var(--fonte-texto);
+    font-size: 48px;
+    color: var(--azulmuitoclaro);
+}
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin:24px;
+}
+.lista__item{
+    font-size: 24px;
+    color: var(--azulclaro);
+
 }
 
 
