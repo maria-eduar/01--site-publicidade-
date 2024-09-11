@@ -57,7 +57,7 @@ body{
 }
 .principal-capa_titulo{
     font-family: var(--fonte-titulo);
-    font-size: 32px;
+    font-size: 20px;
     color: var(--azulforte);
     margin-bottom: 10px;
 }
@@ -107,13 +107,14 @@ body{
     margin: 0 7em;
 }
 .propaganda__img{
+   border: 40%;
     width: 80%;
     height: 90%;
     border-radius: 1em ;
 }
 .propaganda__titulo{
      color:var(--azulmuitoclaro);
-     font-size: 20px;
+     font-size: 15px;
      font-family: var(--fonte-texto);
 }
 .propaganda__titulo:hover{
@@ -136,29 +137,63 @@ body{
     margin-left: 4em;
     border-radius: 1em;
 }
-.principal-capa__botao:hover{
+.principal-capa__botao {
+    text-align: center;
+    border-radius: 15px;
     width: 50%;
     height: 50%
+    
+    
 }
 .dispositivos{
     text-align: center;
 }
 .dispositivos__titulo{
-    font-family: var(--fonte-texto);
-    font-size: 48px;
-    color: var(--azulmuitoclaro);
+    font-family: var(--fonte-titulo);
+    font-size: 25px;
+    text-align: center;
+    color: var(--azulceu)
+    
 }
 .dispositivos__lista{
     display: flex;
     justify-content: center;
     list-style-type: none;
     margin:24px;
+  
 }
 .lista__item{
     font-size: 24px;
-    color: var(--azulclaro);
+    color: var(--azulceu);
+    text-align: center;
 
 }
-
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+    text-align: center;
+}
+.lista__link a{
+    color: var(--azulceu);
+    list-style-type: none;
+    margin-left: 1em;
+    font-size: 10px;
+    text-align: center;
+}
+.rodape__texto{
+    margin: 1em 0;
+    color: var(--azulceu);
+    font-size: 10px;
+}
+.rodape__logo{
+    width: 10%;
+    border-radius: 60px;
+}
+.rodape{
+    text-align: center;
+    margin: 5em 3em;
+}
 
 
